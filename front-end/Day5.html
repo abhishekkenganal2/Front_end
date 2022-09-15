@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        console.log("Hello");
+        console.log(a);
+        console.log(b);
+        var a;
+        a = 20;
+        console.log(a);
+        var b = 30;
+        // console.log(c);
+        let c = 40;
+        console.log(c);
+        console.log(b);
+        console.log(a);
+        let name = "Abhi,Suresh,Ramesh";
+        let size = name.substr(3,6);
+        console.log(size);
+        var na="   Abhi  ";
+        console.log(na);
+        // Trim
+        console.log(na.trim());
+        // Concatinate
+        var na="Abhi ";
+        n1 = "B K";
+        console.log(na.concat(n1));
+        // Pad method
+        name1 = "aaaa";
+        console.log(name1.padStart(8,"b"));
+        console.log(name1.padEnd(8,"b"));
+
+        // Array concept 
+        let ar = [10,20,30,40,50];
+        ar[3] = 60;
+        console.log(ar);
+        ar.push(10,20);  
+        ar.pop();
+        ar.shift();
+        ar.unshift(0,11); 
+        let aa = ar.includes(10);
+        console.log(aa);
+        bb=ar.slice(1,3);
+        console.log(bb);
+        ar.splice(1,0,90,80);
+        console.log(ar);
+        console.log(ar.sort());
+        console.log(ar.reverse());
+        // Objects...
+        let obj = [{
+            name:"Abhi",
+            city:"Bijapur",
+            phoneno:2001134,
+            address:{
+                area:"avad asf asdf",
+                pincode:101,
+            },
+        },
+        {
+            name:"Jyothi",
+            city:"Hatarga",
+            phoneno:2388232,
+        }]
+        console.log(obj[0]);
+        console.log(obj[1].name = "Ramesh");
+        console.log(obj[1]);
+        let firstname = obj[0].name;
+        console.log(firstname);
+
+        console.log(isNaN(obj.name));
+        console.log(Object.bind(obj.name));
+
+        var a1 = (() =>
+        {
+            for(i=0;i<=10;i++)
+            {
+                if(i % 2 != 0)
+                {
+                    console.log(i);
+                }
+            }
+        });
+
+        
+        (function nihal(){
+            console.log("HEllo Abhi");
+        })
+
+        a1()
+
+
+
+
+    </script>
+</body>
+</html>

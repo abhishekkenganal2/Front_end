@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.html">
+    <style>
+        *{
+            
+            padding: 0;
+            background-color: royalblue;
+        }
+        div{
+            height: 70vh;
+            border: 1px solid black;
+        }
+        .div2{
+            border: 2px solid greenyellow;
+            height: 50vh;
+        }
+        #p5{
+            color: aquamarine;
+        }
+        h2{
+            color: aquamarine;
+        }
+        div p{
+            color:brown;
+        }
+        article>p{
+            font-size: 40px;
+        }
+        div+p{
+            font-size: 30px;
+            color: gold;
+        }
+        a:link{
+            color: chartreuse;
+            font-size: 30px;
+            text-decoration:none;
+        }
+        a:visited{
+            color: tomato;
+        }
+        a:hover{
+            background-color: bisque;
+            color: rgb(17, 0, 255);
+        }
+        a:active{
+            color: rgb(255, 136, 0);
+        }
+        .flower{
+            height: 50vh;
+            width: 330px;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        } 
+         /* #p1{
+            margin-left: 140px;
+        }  */
+        #p1:hover{
+            content: url(https://imgs.search.brave.com/aFRwc-WNMUBPOZ_6gN65zVw-EjQXaeYScPnTWEYjAwg/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/MTB3YWxscGFwZXIu/Y29tL3dhbGxwYXBl/ci8xOTIweDE0NDAv/MTcwMi9QaW5rX0dl/c2FuZ19GbG93ZXIt/MjAxN19GbG93ZXJz/X0hEX1dhbGxwYXBl/cnNfMTkyMHgxNDQw/LmpwZw);
+            
+            height: 50vh;
+            width: 330px; 
+        }
+        p::first-line{
+            color: rgb(248, 60, 217);
+        }
+        /* p::before{
+            content: url(Water-fall-image-nature-wallpaper.jpg);
+            height: 30vh;
+        } */
+        #first::after{
+            content: url(Water-fall-image-nature-wallpaper.jpg);
+            background-size: 50vh;
+        }
+    </style>>
+
+</head>
+<body>
+    <!-- Date: 02-03-2022 -->
+     Inline CSS
+    <div></div>
+    <!-- 1.Simple Selector-->
+    a.unversal selector(*)
+    b.ele selector(tag name)
+    c.id selector(#)
+    d.class selector(.)
+    <!---->
+    <!-- For comment use ctrl+/ -->
+    <!-- For multiple same tags use p*10 -->
+    <p style="background-color: aqua;">hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p id="p5">hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p> 
+    
+    <div class="div2"></div>
+    
+    e.Group Selector
+    <p>dfflksbdvk</p>
+    <h2>dnsdjks</h2>
+    <!-- 2.Combinator Selector
+        a.desendent selector(space)-->
+    <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <section><p></p></section>
+    </div>
+    <!-- b.Child Selector(>)  -->
+    <article>
+        <p>sddsdfds</p>
+    </article>
+    <!-- c.Adjesent sibling selector(+) -->
+    <!-- div+p{} -->
+    <!-- d.General selector(~) -->
+    <!-- div~p {} -->
+    <!-- 3.pseudo class selector -->
+    <!-- 1.visited -->
+    <a href="https://www.google.com">google</a>
+    <div class="flower">
+        <p id="p1">flower</p>
+    </div>
+    
+
+    <!-- Date: 03-05-22 -->
+    <!-- 4. Pseudo element Selector -->
+    <p>
+        Spring Boot makes it easy to create stand-alone, production-grade 
+        Spring based Applications that you can "just run".
+        We take an opinionated view of the Spring platform and third-party 
+        libraries so you can get started with minimum fuss. 
+        Most Spring Boot applications need minimal Spring configuration.
+        If you’re looking for information about a specific version, 
+        or instructions about how to upgrade from an earlier release, 
+        check out the project release notes section on our wiki.
+    </p>
+    
+
+</body>
+</html>

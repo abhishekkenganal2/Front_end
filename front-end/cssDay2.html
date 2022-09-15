@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2 CSS</title>
+    <style>
+        .div1{
+            border: 1px;
+            height: 330px;
+            width: 330px;
+            margin-top:0px;
+            margin-left: 10px;
+            border-style:dashed;
+            background-color: blue;
+        }
+        .div2{
+            border: 1px;
+            height: 220px;
+            width: 220px;
+            margin-top: 60px;
+            margin-left: 50px;
+            border-style:dashed;
+            background-color: royalblue;
+        }
+        .div3{
+            border:1px;
+            margin-top:  115px;
+            margin-left: 110px;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 200px;
+            border-radius: 0 0 150px 150px;
+            background-color: aqua;
+            
+        
+        }
+        .div4{
+            border: 1px solid blue;
+            height: 130px;
+            width: 130px;
+            background-color: blueviolet;
+            background-attachment: fixed;
+            background-repeat: repeat;
+            backface-visibility: hidden;
+            background-origin: content-box;
+            background-position-y: bottom;
+
+        }
+        .div6{
+            position:relative;
+            border: 2px solid blue;
+            padding: 0;
+        }
+        #ul1{
+            
+            display: flex;
+            list-style: none;
+            margin-left: 10px;
+            padding: 5px;
+            background-image: url(abhi.jpeg);
+            background-size: 30px;
+            background-repeat: no-repeat;
+        }
+        #li2{
+            margin-left: 1100px;
+        }
+        li:hover{
+            color: blanchedalmond;
+            background-color: black;
+        }
+        #li3{
+            margin-left: 30px;
+        }
+        #li4{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="div3"></div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <!-- background properties -->
+    <div class="div4">
+        <div class="div5"></div>
+    </div>
+    <hr>
+    <!-- Margin and Padding -->
+    <div class="div6">
+        <ul id="ul1">
+            <li id="li1"></li>
+            <li id="li2">Home</li>
+            <li id="li3">About us</li>
+            <li id="li4">Logout</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
